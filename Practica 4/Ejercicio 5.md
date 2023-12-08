@@ -1,19 +1,30 @@
+Sea $G$ el grafo del enunciado
 a)
 Para cualquier numero natural $n$, $gcd(n,1) = 1$
-Esto implica que el vértices $1$ esta conectado a todos los demás vértices(el grafo es conexo). Por lo que $G$ tiene una única componente conexa
+Esto implica que $1$ es un vértice aislado en el grafo.
+Para $1 <n \leq 7$ se tiene que $2n \in V(G)$, por lo que existe el camino $n \to 2n \to 2$
+(ya que $\gcd(2n,2) = 2$ $\forall n \in \mathbb N$).
+Para $n>7$:
+- $n=8$, existe el camino $8 \to 2$
+- $n=9$, existe el camino $9 \to 3 \to 6 \to 2$
+- $n=10$, existe el camino $10 \to 2$
+- $n=11$, $11$ es primo y $\gcd(11,n)=1$ $\forall n\leq 15$
+- $n=12$, existe el camino $12 \to 2$
+- $n=13$, $13$ es primo y $\gcd(13,n)=1$ $\forall n \leq 15$
+- $n=14$, existe el camino $14 \to 2$
+- $n=15$, existe el camino $15 \to 3 \to 6 \to 2$.
+
+Hay $3$ componentes conexas
 
 b)
-Para cualquier numero natural $n$, $gcd(n,n+1) = 1$
+Si $a = b \cdot p$ con $p$ un numero primo se tiene que 
+$\gcd(a,b) = b$ ya que $b$ es el máximo numero que divide a $b$ y $a$ es divisible por $b$.
 
-Sea $gcd(n,n+1) = k$
-$\frac n k$ es un numero natural
-$\frac{n+1} k$ es un numero natural
-$\frac{n+1}{k} = \frac n k + \frac 1 k$
-$\frac 1 k$ tiene que ser un numero natural. Por lo tanto $k$ divide a $1$ y resulta $k=1$.
+Entonces la distancia entre dos números $a$ y $b$ va a ser la cantidad de factores primos que tiene $a / \gcd(a,b)$
 
-Es claro entonces que existe el camino simple:
-$1 \to 2 \to 3 \to \dots \to 15 \to 1$
+Si $a = p_1 \cdot p_2 \cdot \dots \cdot p_k$ con $p_i \geq 2$ entonces $a \geq 2^k$.
+$\gcd(a, p_1)= p_1$
 
-No puede existir un camino simple mas largo que este ya que eso implicaría repetir vértices.
+Entonces $dist(a,p_1) = k-1$
 
-La longitud mas larga de un camino simple en el grafo $G$ es $15$
+Si $a=8=2^3$, $dist(8,2)=2$

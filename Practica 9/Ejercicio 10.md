@@ -1,0 +1,2 @@
+a)
+Si $G$ no es conexo entonces tiene al menos dos componentes conexas, eliminar un vértice de la componente conexa que requiera menos colores no afectara al coloreo de la componente restante. Por lo que eliminar ese vértice no reduce el numero de coloreo, por lo que $G$ no es color critico. Absurdo.

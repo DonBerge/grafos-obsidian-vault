@@ -1,0 +1,1 @@
+Sea $G$ un grafo simple, el complemento de $G$ se denota por $\overline G$ y es el grafo que cumple $V(\overline G)=V(G)$ y $E(\overline G) = (V(G))^2 - E(G)$, es decir, el complemento esta formado por los mismos vertices y aquellas aristas que no estan en el grafo original.
