@@ -16,19 +16,103 @@
             }
           },
           {
-            "id": "b16241bba09285da",
+            "id": "3384602a33f28d8b",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Practica 10/Ejercicio 9.md",
+                "file": "Practica 11/Ejercicio 9.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "e6b6fd3915a1aaa4",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Teoremas/El numero de cubrimiento es no creciente por subgrafos inducidos.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "229424e663931c64",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Teoremas/Cotas del numero cromatico.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "ac83e9749eb11dd6",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Practica 9/Ejercicio 20.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "6e17fb422d6508f4",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Teoremas/La propiedad de ser bipartito es invariante vía isomorfismo.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "cd4a130d69072ef7",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Practica 11/Ejercicio 9.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "36571d12a5996d27",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Presentaciones/Matching.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "71309cbd13703818",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Presentaciones/Matching.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
         ],
-        "currentTab": 1
+        "currentTab": 8
       }
     ],
     "direction": "vertical"
@@ -94,7 +178,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Practica 10/Ejercicio 9.md",
+                "file": "Presentaciones/Matching.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -111,7 +195,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Practica 10/Ejercicio 9.md",
+                "file": "Presentaciones/Matching.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -134,7 +218,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Practica 10/Ejercicio 9.md"
+                "file": "Presentaciones/Matching.md"
               }
             }
           }
@@ -156,43 +240,43 @@
       "obsidian-excalidraw-plugin:Create new drawing": false
     }
   },
-  "active": "b16241bba09285da",
+  "active": "71309cbd13703818",
   "lastOpenFiles": [
-    "Practica 10/Ejercicio  13.md",
-    "Practica 10/Ejercicio 9.md",
-    "Practica 10/Ejercicio 10.md",
-    "Teoremas/Un grafo con grado mínimo muy alto contiene caminos y ciclos largos.md",
+    "Practica 4/Ejercicio 6.md",
+    "Practica 4/Ejercicio 5.md",
+    "Practica 4/Ejercicio 4.md",
+    "Practica 4/Ejercicio 3.md",
+    "Presentaciones/Planaridad.md",
+    "Presentaciones/Matching.md",
+    "Teoremas/Cotas del numero cromatico.md",
+    "Teoremas/Teoremas de Nordaus-Gadhum.md",
     "Teoremas/Si un grafo tiene un camino entonces tiene un camino simple.md",
-    "Teoremas/Prueba del teorema del grafo perfecto usando algebra lineal.md",
-    "Practica 4/Ejercicio 15.md",
-    "Practica 4/Ejercicio 15 again.md",
-    "Practica 4/Practica 4 - Grafos eulerianos.pdf",
-    "Practica 4/Ejercicio 16.md",
-    "Practica 4/Ejercicio 17.md",
-    "Practica 10/Práctica 10 - Planaridad.pdf",
-    "Excalidraw/Drawing 2023-12-06 16.05.43.excalidraw.md",
-    "Excalidraw/Drawing 2023-10-06 15.28.01.excalidraw.md",
-    "Teoremas/El grafo de Petersen es vértice transitivo.md",
-    "Practica 11/Ejercicio 10.md",
     "Practica 11/Ejercicio 9.md",
-    "Practica 11/Práctica 11 - Flujo en redes.pdf",
-    "Practica 11",
-    "Practica 10",
+    "Presentaciones",
+    "Practica 8/Ejercicio 13.md",
+    "Practica 8/Ejercicio 14.md",
+    "Practica 8/Ejercicio 17.md",
+    "Practica 9/Ejercicio 2.md",
+    "Practica 9/Ejercicio 3.md",
     "Practica 9/Ejercicio 10.md",
     "Practica 9/Ejercicio 20.md",
-    "Practica 9/Ejercicio 3.md",
-    "Practica 9/Ejercicio 2.md",
+    "Practica 10/Ejercicio  13.md",
+    "Practica 10/Ejercicio 10.md",
+    "Practica 10/Ejercicio 9.md",
+    "Parcial 1/Ejercicio 1.md",
+    "Teoremas/La propiedad de ser bipartito es invariante vía isomorfismo.md",
+    "Parcial 1",
+    "Teoremas de Nordaus-Gadhum.pdf",
+    "Teoremas/El numero de cubrimiento es no creciente por subgrafos inducidos.md",
+    "Corolario del teorema de Hall.md",
+    "Practica 2/Ejercicio 8.md",
+    "Practica 1/Ejercicio 14.md",
+    "Practica 11/Práctica 11 - Flujo en redes.pdf",
+    "Practica 4/Practica 4 - Grafos eulerianos.pdf",
+    "Practica 10/Práctica 10 - Planaridad.pdf",
+    "Practica 11",
+    "Practica 10",
     "Practica 9",
-    "Practica 8/Ejercicio 17.md",
-    "Practica 8/Ejercicio 20.md",
-    "Practica 8/Ejercicio 14.md",
-    "Practica 8/Ejercicio 13.md",
-    "Practica 8/Ejercicio 11.md",
-    "Practica 8/Ejercicio 10.md",
-    "Practica 8/Ejercicio 8.md",
-    "Practica 8",
-    "Practica 6 parte 1",
-    "Excalidraw",
-    "Definiciones"
+    "Practica 8"
   ]
 }

@@ -51,18 +51,18 @@ Tomando las capacidades de ambos cortes, se tiene lo que se quería probar.
 Puesto que $S$ y $T$ definen cortes minimos, se tiene que:
 1. $cap(S,\overline S) = cap(T, \overline T)$
 2. $cap(S \cup T, \overline{S \cup T}) \geq cap(S,\overline S)$
-3. $cap(S \cup T, \overline{S \cup T}) \geq cap(S,\overline S)$
+3. $cap(S \cap T, \overline{S \cap T}) \geq cap(S,\overline S)$
 
 Por ende combinando (2) y (3) :
-$cap(S \cup T, \overline{S \cup T}) + cap(S \cup T, \overline{S \cup T}) \geq cap(S,\overline S) + cap(S,\overline S)$
+$cap(S \cup T, \overline{S \cup T}) + cap(S \cap T, \overline{S \cap T}) \geq cap(S,\overline S) + cap(S,\overline S)$
 $\implies$ por (1)
-$cap(S \cup T, \overline{S \cup T}) + cap(S \cup T, \overline{S \cup T}) \geq cap(S,\overline S) + cap(T,\overline T)$
+$cap(S \cup T, \overline{S \cup T}) + cap(S \cap T, \overline{S \cap T}) \geq cap(S,\overline S) + cap(T,\overline T)$
 
 Pero por el ejercicio anterior:
-$cap(S \cup T, \overline{S \cup T}) + cap(S \cup T, \overline{S \cup T}) \leq cap(S,\overline S) + cap(T,\overline T)$
+$cap(S \cup T, \overline{S \cup T}) + cap(S \cap T, \overline{S \cap T}) \leq cap(S,\overline S) + cap(T,\overline T)$
 
 Por ende ambos términos son iguales.
-$cap(S \cup T, \overline{S \cup T}) + cap(S \cup T, \overline{S \cup T}) = cap(S,\overline S) + cap(T,\overline T)$ (4)
+$cap(S \cup T, \overline{S \cup T}) + cap(S \cap T, \overline{S \cap T}) = cap(S,\overline S) + cap(T,\overline T)$ (4)
 
 Por (2) y (3) pueden ocurrir 3 cosas con los términos de la izquierda:
 - Ambos tienen capacidades estrictamente mayores que el corte definido por $S$, esto es una contradicción con (4).

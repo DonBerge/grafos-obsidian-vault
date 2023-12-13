@@ -18,10 +18,12 @@ c)
 Se puede hacer la construcción de $G_M$ sobre $G_M$ $k$ veces para construir el grafo $H$ pedido.
 
 Si $G$ es bipartito, probar que existe un matching $M$ tal que $\frac{|E|}{\Delta(G)} \leq |M|$
-Si existe un matching $M$ que lo cumpla entonces para cualquier matching mas grande que $M$ se va a cumplir, en particular se tiene que cumplir para el matching máximo del grafo. Entonces se tiene que $\frac{|E|}{\delta(G)} \leq \alpha'(G) = \beta(G)$
+Si existe un matching $M$ que lo cumpla entonces para cualquier matching mas grande que $M$ se va a cumplir, en particular se tiene que cumplir para el matching máximo del grafo. Entonces se tiene que $\frac{|E|}{\Delta(G)} \leq \alpha'(G) = \beta(G)$
 
 Por lo que hay que probar que: $|E| \leq \beta(G)\cdot \Delta(G)$
 
-La propiedad es cierta ya que para los vertices $\{v_1,\dots,v_k\}$ de un cubrimiento minimo de $G$
+La propiedad es cierta ya que para los vértices $\{v_1,\dots,v_k\}$ de un cubrimiento mínimo de $G$
 
 $|E| \leq \sum_{i=1}^k d(v_i) \leq \beta(G) \cdot \Delta(G)$
+
+$283.\overline{3}$
